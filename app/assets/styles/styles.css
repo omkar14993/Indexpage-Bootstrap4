@@ -1,0 +1,31 @@
+@media only screen and (max-width: 500px) {
+    #mainContent h1 {
+        font-size: 42px;
+        padding-left: -10 px;
+    }
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background: url('../images/body.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.navbar {
+    border-bottom: blue 3px solid;
+}
+
+.display-1,
+h1 {
+    color: wheat;
+}
+
+#mainContent {
+    padding: 200px 20px 0px 20px;
+}
+
+#buttonContent {
+    padding: 250px 20px 0px 20px;
+}
